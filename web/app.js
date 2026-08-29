@@ -23,7 +23,7 @@ async function loadDashboardData() {
     document.getElementById("requirementsCompletion").textContent = requirementsCompletion.toFixed(1) + "%";
     document.getElementById("overall").textContent = overall.toFixed(1) + "%";
 
-    renderAnalysis(analysis);
+    renderAnalysis(analysis);\n    renderRisk(analysis);
   } catch (error) {
     console.error("Não foi possível carregar os dados demonstrativos.", error);
     document.getElementById("analysisStatus").textContent =
@@ -57,6 +57,35 @@ function renderAnalysis(analysis) {
       <strong>${escapeHTML(alert.codigo)}</strong>
       <span>${escapeHTML(alert.tipo)}</span>
       <p>${escapeHTML(alert.mensagem)}</p>
+    </article>
+  `).join("");
+}
+
+function renderRisk(analysis) {
+  const results = analysis.resultados || [];
+  const distribution = analysis.distribuicao_risco || {};
+  const highRisk = results.filter(item => item.nivel_risco === "Alto").length;
+
+  document.getElementById("projectRisk").textContent =
+    Number(analysis.indice_risco_projeto || 0).toFixed(1);
+
+  document.getElementById("highRiskDocuments").textContent = highRisk;
+
+  document.getElementById("riskDistribution").textContent =
+    `B: ${distribution.Baixo || 0} · M: ${distribution["Médio"] || 0} · A: ${distribution.Alto || 0}`;
+
+  const priority = analysis.documentos_prioritarios || [];
+  const container = document.getElementById("priorityDocuments");
+
+  container.innerHTML = priority.map(item => `
+    <article class="priority-card">
+      <div>
+        <strong>${escapeHTML(item.codigo)}</strong>
+        <p>${escapeHTML(item.titulo)}</p>
+      </div>
+      <div class="risk-badge risk-${String(item.nivel_risco).toLowerCase()}">
+        ${escapeHTML(item.nivel_risco)} · ${item.score_risco}
+      </div>
     </article>
   `).join("");
 }
