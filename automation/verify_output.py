@@ -1,5 +1,5 @@
 """
-Verifica se os artefatos necessários foram gerados pelo dashboard.
+Verifica se os artefatos necessários foram gerados pelo pipeline.
 """
 
 from pathlib import Path
@@ -13,13 +13,10 @@ expected = [
     "progresso_por_disciplina.png",
     "requisitos_por_status.png",
     "dashboard.html",
+    "document_analysis_report.json",
 ]
 
-missing = [
-    filename for filename in expected
-    if not (OUTPUT / filename).exists()
-]
-
+missing = [filename for filename in expected if not (OUTPUT / filename).exists()]
 empty = [
     filename for filename in expected
     if (OUTPUT / filename).exists() and (OUTPUT / filename).stat().st_size == 0
