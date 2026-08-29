@@ -40,6 +40,16 @@
       <div id="alertsList" class="alerts-list"></div>
     </section>
 
+    <section class="panel risk-panel">
+      <h2>Risco documental e prioridades</h2>
+      <div class="metrics analysis-metrics">
+        <article class="metric"><span>Índice de risco do projeto</span><strong id="projectRisk">—</strong></article>
+        <article class="metric"><span>Documentos de alto risco</span><strong id="highRiskDocuments">—</strong></article>
+        <article class="metric"><span>Distribuição de risco</span><strong id="riskDistribution">—</strong></article>
+      </div>
+      <div id="priorityDocuments" class="priority-documents"></div>
+    </section>
+
     <section class="charts">
       <article class="panel"><h2>Documentos por status</h2><img src="automation/output/documentos_por_status.png" alt="Documentos por status"></article>
       <article class="panel"><h2>Progresso por disciplina</h2><img src="automation/output/progresso_por_disciplina.png" alt="Progresso por disciplina"></article>
@@ -48,7 +58,7 @@
 
     <section class="panel">
       <h2>Arquitetura demonstrada</h2>
-      <div class="pipeline">CSV → Python → Validação → Análise Inteligente → Indicadores → Gráficos → HTML → GitHub Actions</div>
+      <div class="pipeline">CSV → Python → Validação → Análise Inteligente → Risco → Prioridades → Dashboard → GitHub Actions</div>
     </section>
   </main>
 
