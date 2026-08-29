@@ -1,0 +1,11 @@
+codigo,titulo,disciplina,revisao,status,responsavel,progresso
+DOC-01,Memorial Descritivo,Geral,00,Aprovado,Equipe de Projeto,100
+DOC-02,Requisitos e Dados de Entrada,Geral,01,Em revisão,PMO,80
+DOC-03,Avaliação de Áreas Classificadas,Segurança,00,Em desenvolvimento,Engenharia,55
+DOC-04,Premissas e Critérios,Geral,00,Aprovado,PMO,100
+ENG-01,Relatório de Levantamento,Engenharia,00,Em desenvolvimento,Engenharia,45
+ENG-02,Layout Geral,Civil,00,Pendente,Engenharia,10
+ENG-05,Projeto Civil e Drenagem,Civil,00,Pendente,Engenharia,0
+ENG-06,Projeto Elétrico,Elétrica,00,Em desenvolvimento,Engenharia,35
+SEG-02,Matriz de Contramedidas,Segurança,01,Em revisão,Segurança,75
+COM-01,Plano de Comissionamento,Comissionamento,00,Pendente,Projeto,0
