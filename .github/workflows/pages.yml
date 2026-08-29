@@ -40,8 +40,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r automation/requirements.txt
 
+      - name: Validate input data
+        run: python automation/validate_data.py
+
       - name: Generate dashboard assets
         run: python automation/generate_visual_dashboard.py
+
+      - name: Verify generated output
+        run: python automation/verify_output.py
 
       - name: Build Pages package
         run: |
