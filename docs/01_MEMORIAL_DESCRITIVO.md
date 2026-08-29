@@ -1,284 +1,144 @@
 # MEMORIAL DESCRITIVO / ESCOPO DE CONTRATAÇÃO
 
-## Projeto de Armazenamento e Abastecimento de Diesel
+## Projeto de Armazenamento e Abastecimento de Combustível
 
-**Empresa:** Mistura de Fertilizantes Heringer  
-**Unidade:** Rosário do Catete – SE  
 **Documento:** Memorial Descritivo / Escopo de Contratação  
 **Revisão:** 00  
 **Data:** [preencher]
 
----
-
 ## 1. OBJETO
 
-O presente documento estabelece o Memorial Descritivo e o Escopo de Contratação para a realização de serviços de engenharia destinados ao desenvolvimento do **Projeto de Armazenamento e Abastecimento de Diesel**, incluindo a elaboração do **Relatório de Áreas Classificadas** e a definição das **Contramedidas de Segurança** aplicáveis à instalação existente ou proposta na unidade de Rosário do Catete – SE, da Mistura de Fertilizantes Heringer.
+Estabelecer o escopo para contratação de serviços de engenharia destinados ao desenvolvimento de projeto de armazenamento e abastecimento de combustível, incluindo levantamento técnico, estudos de engenharia, avaliação de áreas classificadas e definição de medidas de segurança aplicáveis.
 
-A contratação deverá contemplar os levantamentos necessários, estudos, projetos, memoriais, especificações, desenhos, avaliações de segurança e demais documentos técnicos necessários à adequada definição da solução, considerando as condições reais da unidade, os requisitos operacionais e os critérios legais e normativos aplicáveis.
+A documentação deverá subsidiar a definição da solução técnica, considerando as condições reais do local, os requisitos operacionais e a legislação e normas aplicáveis.
 
 ## 2. OBJETIVO
 
-O objetivo da contratação é desenvolver uma solução técnica integrada para o armazenamento e abastecimento de diesel, proporcionando condições adequadas de segurança operacional, confiabilidade, proteção ambiental e manutenção, além de estabelecer de forma documentada:
+Desenvolver uma solução integrada para armazenamento e abastecimento de combustível, contemplando:
 
-- as características e requisitos da instalação de armazenamento;
-- a configuração da área e do sistema de abastecimento;
-- as necessidades de infraestrutura civil, elétrica e demais disciplinas envolvidas;
-- a identificação e classificação das áreas com possibilidade de formação de atmosfera explosiva;
-- os requisitos de equipamentos e instalações compatíveis com as áreas classificadas;
-- as contramedidas necessárias para prevenção e mitigação dos riscos associados à operação;
-- os requisitos para implantação, inspeção, testes, comissionamento e operação segura.
+- características do sistema de armazenamento;
+- configuração da área de abastecimento;
+- infraestrutura civil, elétrica e demais disciplinas necessárias;
+- avaliação de áreas com potencial de formação de atmosferas explosivas;
+- requisitos aplicáveis aos equipamentos;
+- medidas de prevenção e mitigação de riscos;
+- requisitos para implantação, inspeção, testes e operação.
 
-## 3. LOCAL DA CONTRATAÇÃO
+## 3. ESCOPO DOS SERVIÇOS
 
-**Unidade:** Rosário do Catete – SE  
-**Empresa:** Mistura de Fertilizantes Heringer
+### 3.1 Levantamento e análise preliminar
 
-A contratada deverá considerar as condições específicas da unidade, incluindo interferências com instalações existentes, circulação de veículos e pessoas, sistemas de utilidades, drenagem, instalações elétricas, sistemas de combate a incêndio, áreas operacionais adjacentes, requisitos ambientais e demais características identificadas durante o levantamento de campo.
+Realizar visita técnica e levantamento das condições existentes, incluindo dimensões, acessos, interferências, equipamentos, infraestrutura elétrica, drenagem, circulação, instalações adjacentes, fontes potenciais de ignição e demais informações necessárias ao desenvolvimento da engenharia.
 
-## 4. ESCOPO DOS SERVIÇOS
+Quando necessário, deverão ser realizados registros fotográficos, medições, croquis e levantamentos complementares.
 
-### 4.1. Mobilização e planejamento
+### 3.2 Projeto de armazenamento
 
-A contratada deverá realizar reunião inicial de alinhamento, definição da metodologia de trabalho, cronograma, documentos de entrada, requisitos de acesso e segurança da unidade, bem como identificação das informações necessárias ao desenvolvimento das etapas subsequentes.
+Desenvolver o projeto do sistema de armazenamento de combustível considerando demanda operacional, segurança, manutenção e requisitos ambientais.
 
-### 4.2. Visita técnica e levantamento de campo
+O projeto deverá definir, conforme aplicável:
 
-Deverá ser realizada visita técnica à unidade de Rosário do Catete para levantamento das condições existentes e coleta de dados técnicos.
-
-O levantamento deverá abranger, quando aplicável:
-
-- localização e características da área destinada ao armazenamento e abastecimento;
-- dimensões, níveis, acessos e interferências existentes;
-- instalações e edificações próximas;
-- equipamentos existentes e suas características;
-- infraestrutura elétrica disponível;
-- sistemas de drenagem e direcionamento de eventuais derramamentos;
-- sistemas de combate e proteção contra incêndio;
-- circulação e posicionamento de veículos/equipamentos;
-- fontes potenciais de ignição;
-- condições de ventilação e características da área;
-- informações disponíveis sobre produtos, processos e operações existentes;
-- demais dados necessários à classificação das áreas e ao desenvolvimento dos projetos.
-
-Quando necessário, deverão ser realizados registros fotográficos, medições, croquis e demais levantamentos complementares.
-
-### 4.3. Projeto de armazenamento de diesel
-
-Deverá ser desenvolvido o projeto do sistema de armazenamento de diesel, considerando a demanda operacional da unidade e os requisitos técnicos, de segurança e ambientais aplicáveis.
-
-Como premissa inicial de projeto, considera-se um sistema de armazenamento com capacidade de **10.000 litros**, preferencialmente em tanque subterrâneo, condição que deverá ser confirmada e tecnicamente validada durante o levantamento e o desenvolvimento da engenharia.
-
-O projeto deverá contemplar, no mínimo, conforme aplicabilidade:
-
-- definição e especificação do tanque;
+- tipo e especificação do tanque;
 - localização e implantação;
-- dispositivos de enchimento, respiro e demais conexões;
-- acessórios e instrumentos necessários;
-- meios de detecção e prevenção de vazamentos;
-- contenção secundária e/ou sistemas equivalentes de proteção contra vazamentos;
-- critérios para inspeção, manutenção e integridade;
-- identificação de interfaces com sistemas existentes;
-- requisitos de segurança e proteção ambiental.
+- dispositivos de enchimento, respiro e conexões;
+- acessórios e instrumentação;
+- meios de prevenção e detecção de vazamentos;
+- sistemas de contenção;
+- requisitos de inspeção e manutenção;
+- interfaces com instalações existentes.
 
-### 4.4. Projeto da área de abastecimento
+### 3.3 Projeto da área de abastecimento
 
-Deverá ser desenvolvido o projeto da área destinada ao abastecimento de veículos, máquinas e/ou equipamentos com diesel.
+Desenvolver o projeto da área destinada ao abastecimento de veículos e equipamentos, contemplando, conforme aplicável:
 
-O escopo deverá contemplar, conforme aplicabilidade:
-
-- bomba ou conjunto de abastecimento;
-- linhas e conexões;
-- mangueiras, bico de abastecimento e acessórios;
+- equipamento ou conjunto de abastecimento;
+- linhas, conexões e acessórios;
+- mangueiras e pontos de abastecimento;
 - dispositivos de bloqueio e parada de emergência;
-- sistemas de prevenção e/ou detecção de vazamentos;
-- proteção contra impactos mecânicos;
-- organização e circulação da área;
-- cobertura e estruturas de proteção, quando aplicáveis;
-- sinalização operacional e de segurança;
+- prevenção e controle de vazamentos;
+- proteção contra impactos;
+- circulação e organização da área;
+- sinalização;
 - drenagem e controle de derramamentos;
 - requisitos de operação e manutenção.
 
-### 4.5. Projeto civil e infraestrutura
+### 3.4 Infraestrutura civil
 
-Deverão ser definidas e detalhadas as adequações civis e de infraestrutura necessárias à implantação ou adequação da área de abastecimento.
-
-Poderão fazer parte do escopo, conforme resultado do levantamento:
+Definir as adequações civis necessárias, incluindo, quando aplicável:
 
 - bases e fundações;
 - pisos e pavimentação;
-- canaletas e sistemas de drenagem;
+- drenagem e canaletas;
 - contenções;
-- estruturas metálicas e suportes;
+- estruturas e suportes;
 - proteção contra colisão;
-- acessos e circulação;
-- cercamentos e controle de acesso;
-- adequações de edificações existentes;
-- recomposição das áreas afetadas pelas intervenções.
+- acessos e controle de acesso;
+- recomposição das áreas afetadas.
 
-### 4.6. Projeto elétrico
+### 3.5 Instalações elétricas
 
-Deverá ser desenvolvido o projeto das instalações elétricas necessárias à operação da área de armazenamento e abastecimento, considerando as características dos equipamentos e a classificação das áreas.
+Desenvolver o projeto das instalações elétricas necessárias, considerando os equipamentos e os resultados da avaliação de áreas classificadas.
 
-O projeto deverá contemplar, conforme aplicabilidade:
+Poderão ser contemplados:
 
-- alimentação elétrica dos equipamentos;
+- alimentação e distribuição elétrica;
 - quadros e circuitos;
 - aterramento e equipotencialização;
-- proteção contra choques elétricos e sobrecorrentes;
 - iluminação normal e de emergência;
 - comandos e sinalizações;
 - parada de emergência;
-- encaminhamento e identificação de cabos;
-- especificação de equipamentos e componentes adequados às áreas classificadas, quando aplicável.
+- encaminhamento de cabos;
+- requisitos para equipamentos aplicáveis às áreas classificadas.
 
-### 4.7. Relatório de Áreas Classificadas
+### 3.6 Avaliação de áreas classificadas
 
-Deverá ser elaborado **Relatório de Áreas Classificadas** específico para a instalação, com base nas condições reais levantadas em campo, nas características do produto armazenado/manuseado, nos pontos de possível liberação e nas condições de ventilação e dispersão.
+Elaborar relatório técnico com metodologia, critérios adotados, fontes de risco, pontos de possível liberação, zonas identificadas, extensões aplicáveis, premissas e recomendações.
 
-O relatório deverá apresentar, no mínimo:
+A classificação definitiva deverá ser estabelecida por profissional habilitado com base nas condições reais da instalação e nos estudos pertinentes.
 
-- metodologia e critérios adotados;
-- identificação das fontes de risco;
-- identificação dos pontos de liberação;
-- determinação das zonas classificadas aplicáveis;
-- representação gráfica das áreas classificadas, quando aplicável;
-- limites e extensões das zonas;
-- premissas e condições consideradas;
-- relação entre classificação das áreas e seleção dos equipamentos;
-- recomendações para manutenção da integridade da classificação.
+### 3.7 Medidas de segurança
 
-### 4.8. Contramedidas de segurança
-
-Com base nos estudos realizados, deverão ser definidas as **Contramedidas de Segurança** necessárias à operação segura da instalação.
-
-As medidas poderão incluir, conforme aplicabilidade:
+Definir medidas de prevenção e mitigação de riscos, podendo incluir:
 
 - controle de fontes de ignição;
-- seleção e instalação de equipamentos compatíveis com a classificação das áreas;
 - aterramento e equipotencialização;
-- proteção contra descargas eletrostáticas;
-- sistemas de parada de emergência;
-- proteção contra vazamentos e derramamentos;
-- contenção e drenagem de emergências;
-- prevenção e proteção contra incêndio;
-- sinalização e identificação de riscos;
+- controle de eletricidade estática;
+- parada de emergência;
+- prevenção e contenção de vazamentos;
+- drenagem de emergência;
+- proteção contra incêndio;
+- sinalização;
 - controle de acesso;
-- requisitos de inspeção e manutenção;
+- inspeção e manutenção;
 - procedimentos operacionais e de emergência;
-- requisitos de treinamento e capacitação;
-- outras medidas identificadas pela análise de riscos e pela engenharia.
+- treinamento.
 
-### 4.9. Segurança contra incêndio e emergência
+## 4. DOCUMENTAÇÃO E ENTREGÁVEIS
 
-Deverão ser avaliadas as necessidades de prevenção e combate a incêndio associadas à área de armazenamento e abastecimento, considerando a infraestrutura existente e os requisitos aplicáveis.
-
-O escopo deverá contemplar a avaliação de:
-
-- posicionamento e adequação de extintores;
-- acessibilidade aos equipamentos de emergência;
-- sinalização de emergência;
-- recursos para contenção de derramamentos;
-- acionamento de emergência;
-- acessos para atendimento a emergências;
-- interfaces com os sistemas de proteção contra incêndio da unidade;
-- requisitos para procedimentos de resposta a incidentes.
-
-### 4.10. Documentação técnica
-
-A contratada deverá fornecer documentação técnica suficiente para caracterizar e possibilitar a implantação da solução aprovada.
-
-A documentação deverá incluir, conforme aplicabilidade:
-
-- Memorial Descritivo;
-- desenhos e plantas de implantação;
-- layouts;
-- diagramas e esquemas elétricos;
-- detalhamentos civis;
-- documentos de classificação de áreas;
-- especificações técnicas;
-- lista de equipamentos e materiais;
-- critérios de instalação;
-- procedimentos de inspeção e testes;
-- recomendações de operação e manutenção;
-- relatório fotográfico do levantamento;
-- demais documentos necessários à contratação e execução.
-
-## 5. REQUISITOS NORMATIVOS E LEGAIS
-
-Os serviços deverão ser desenvolvidos em conformidade com a legislação vigente e com as normas técnicas aplicáveis ao escopo, incluindo, conforme pertinência, requisitos relacionados a instalações elétricas, atmosferas explosivas, líquidos inflamáveis e combustíveis, segurança e saúde ocupacional, proteção contra incêndio, meio ambiente e demais exigências dos órgãos competentes.
-
-A contratada deverá identificar, durante a elaboração do projeto, todas as normas e requisitos legais efetivamente aplicáveis à solução definida e registrar os critérios adotados na documentação técnica.
-
-## 6. RESPONSABILIDADES DA CONTRATADA
-
-Compete à contratada:
-
-- realizar os levantamentos necessários ao desenvolvimento dos serviços;
-- disponibilizar profissionais habilitados para cada disciplina envolvida;
-- elaborar os documentos e desenhos previstos no escopo;
-- realizar os cálculos e dimensionamentos pertinentes;
-- verificar interferências entre as disciplinas;
-- considerar as condições existentes da unidade;
-- apresentar soluções tecnicamente justificadas;
-- atender aos requisitos de segurança da unidade durante os levantamentos;
-- realizar as revisões decorrentes de comentários técnicos dentro do escopo contratado;
-- fornecer os documentos finais em formato editável e PDF, conforme definido pela contratante;
-- emitir as respectivas responsabilidades técnicas quando legalmente aplicáveis.
-
-## 7. RESPONSABILIDADES DA CONTRATANTE
-
-Compete à contratante, dentro das condições acordadas:
-
-- fornecer as informações e documentos existentes disponíveis;
-- disponibilizar acesso às áreas necessárias ao levantamento;
-- orientar quanto aos procedimentos internos de segurança e acesso;
-- fornecer informações operacionais relevantes;
-- analisar e comentar os documentos apresentados;
-- aprovar as soluções dentro do fluxo de engenharia estabelecido.
-
-## 8. ENTREGÁVEIS
-
-Os entregáveis deverão ser definidos no cronograma da contratação e incluir, no mínimo:
+Conforme aplicabilidade, a documentação deverá incluir:
 
 1. Relatório de levantamento de campo;
-2. Memorial Descritivo / Escopo de Contratação;
-3. Projeto de armazenamento de diesel;
-4. Projeto da área de abastecimento;
-5. Projeto civil e de infraestrutura;
+2. Memorial Descritivo;
+3. Desenhos e plantas;
+4. Layouts e diagramas;
+5. Detalhamentos civis;
 6. Projeto elétrico;
 7. Relatório de Áreas Classificadas;
-8. Planta/desenho de classificação de áreas, quando aplicável;
-9. Relatório de Contramedidas de Segurança;
-10. Especificações técnicas dos principais equipamentos e sistemas;
-11. Lista de materiais/equipamentos, quando prevista na contratação;
-12. Documentação final revisada e consolidada.
+8. Desenhos de classificação de áreas;
+9. Matriz de medidas de segurança;
+10. Especificações técnicas;
+11. Listas de equipamentos e materiais, quando previstas;
+12. Documentação final revisada.
 
-## 9. CRITÉRIOS DE ACEITAÇÃO
+## 5. REQUISITOS GERAIS
 
-Os documentos serão considerados aptos para aceite quando:
+Os serviços deverão observar a legislação e as normas técnicas aplicáveis ao escopo. A engenharia responsável deverá identificar e registrar os requisitos efetivamente aplicáveis à solução desenvolvida.
 
-- atenderem ao escopo contratado;
-- estiverem tecnicamente consistentes entre si;
-- apresentarem identificação de revisão e status documental;
-- refletirem as condições levantadas em campo;
-- contemplarem as interfaces entre as disciplinas;
-- estiverem acompanhados das responsabilidades técnicas cabíveis;
-- atenderem aos requisitos legais e normativos aplicáveis;
-- incorporarem os comentários técnicos acordados entre contratante e contratada.
+## 6. CONCLUSÃO
 
-## 10. PREMISSAS E RESTRIÇÕES
+O objetivo desta contratação é obter uma base técnica integrada para desenvolvimento, contratação e implantação de uma solução de armazenamento e abastecimento de combustível, acompanhada da avaliação das áreas classificadas e das medidas de segurança pertinentes.
 
-Os dados atualmente disponíveis constituem premissas iniciais e deverão ser confirmados durante o levantamento de campo e o desenvolvimento da engenharia.
-
-A capacidade de armazenamento de **10.000 litros** e a utilização de **tanque subterrâneo** são referências preliminares e não devem ser tratadas como definição executiva até sua validação técnica.
-
-Qualquer alteração significativa de escopo, capacidade, configuração, tecnologia, infraestrutura existente ou requisito legal que implique mudança da solução deverá ser formalmente avaliada e registrada.
-
-## 11. CONCLUSÃO
-
-A contratação tem por finalidade estabelecer uma solução integrada, segura e tecnicamente fundamentada para o **Armazenamento e Abastecimento de Diesel** na unidade de Rosário do Catete – SE, da **Mistura de Fertilizantes Heringer**, contemplando os estudos e projetos necessários, o **Relatório de Áreas Classificadas** e as respectivas **Contramedidas de Segurança**.
-
-O resultado esperado é uma documentação de engenharia consistente, compatível com as condições reais da unidade e suficientemente detalhada para subsidiar as etapas de contratação, implantação, inspeção, comissionamento, operação e manutenção da instalação.
+A documentação final deverá ser tecnicamente consistente, compatível com as condições reais levantadas e validada pelos profissionais legalmente habilitados responsáveis pelas disciplinas envolvidas.
 
 ---
 
