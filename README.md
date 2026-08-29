@@ -1,34 +1,29 @@
-# Projeto de Área de Armazenamento e Abastecimento de Diesel
+# Projeto de Engenharia — Armazenamento e Abastecimento de Combustível
 
-**Unidade:** Rosário do Catete – SE  
-**Empresa:** Mistura de Fertilizantes Heringer  
-**Status:** Em fase de levantamento e desenvolvimento de engenharia
+**Status:** Base documental genérica e portfólio técnico  
+**Local:** Informação omitida intencionalmente  
+**Organização:** Informação omitida intencionalmente
 
 ## Objetivo
 
-Desenvolver a documentação técnica e o escopo de contratação para a implantação/adequação de uma área destinada ao armazenamento e abastecimento de diesel, contemplando também a avaliação e documentação das áreas classificadas e as respectivas contramedidas de segurança.
+Este repositório reúne uma estrutura documental genérica para o desenvolvimento de estudos e projetos de engenharia relacionados ao armazenamento e abastecimento de combustível, incluindo avaliação de áreas classificadas e definição de medidas de segurança.
 
 ## Escopo principal
 
 - Levantamento de campo e coleta de dados;
-- Projeto de armazenamento de diesel;
+- Projeto de armazenamento de combustível;
 - Projeto da área e sistema de abastecimento;
 - Infraestrutura civil e drenagem;
-- Instalações elétricas e equipamentos aplicáveis às áreas classificadas;
-- Identificação e avaliação das áreas classificadas;
-- Relatório de áreas classificadas;
-- Definição de contramedidas de segurança;
+- Instalações elétricas;
+- Avaliação e documentação de áreas classificadas;
+- Identificação de medidas e contramedidas de segurança;
 - Sinalização e requisitos operacionais;
-- Documentação técnica para contratação, execução, inspeção e comissionamento.
+- Documentação técnica para contratação e desenvolvimento do projeto.
 
-## Premissas iniciais
+## Nota de confidencialidade
 
-A capacidade preliminar considerada nos registros de referência é de **10.000 litros de diesel**, em tanque subterrâneo. Essa capacidade deverá ser confirmada durante o levantamento de campo e pela engenharia responsável, juntamente com o tipo de tanque, configuração do sistema, equipamentos, requisitos ambientais e demais parâmetros de projeto.
-
-## Documentação
-
-A documentação deste repositório está organizada por disciplina e deverá ser atualizada conforme as informações de campo, critérios de projeto, especificações dos equipamentos e validações técnicas forem disponibilizadas.
+Este repositório foi revisado para fins de portfólio e aprendizado. Informações que possam identificar empresa, unidade, localização, instalações específicas, procedimentos internos ou condições operacionais foram removidas ou generalizadas.
 
 ## Observação de engenharia
 
-Este repositório representa uma base de desenvolvimento e controle documental. O projeto executivo, o dimensionamento, a classificação de áreas, a seleção de equipamentos e a definição final das medidas de segurança devem ser elaborados e validados por profissionais legalmente habilitados, considerando as normas, legislação, requisitos da unidade e condições reais encontradas em campo.
+Esta documentação representa uma base de organização e desenvolvimento documental. Projetos executivos, dimensionamentos, classificação de áreas, seleção de equipamentos e definição final das medidas de segurança devem ser elaborados e validados por profissionais legalmente habilitados, considerando as normas, legislação e condições reais de cada instalação.
