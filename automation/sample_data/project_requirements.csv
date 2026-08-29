@@ -1,0 +1,9 @@
+id,tema,descricao,status,prioridade,responsavel
+REQ-001,Levantamento,Consolidar dados de entrada,concluido,alta,PMO
+REQ-002,Engenharia,Definir solução conceitual,em_andamento,alta,Engenharia
+REQ-003,Segurança,Avaliar riscos e controles,em_andamento,alta,Segurança
+REQ-004,Documentação,Emitir lista mestra,concluido,media,PMO
+REQ-005,Civil,Validar interfaces de implantação,pendente,media,Engenharia
+REQ-006,Elétrica,Confirmar dados de alimentação,pendente,alta,Elétrica
+REQ-007,Governança,Registrar aprovações,concluido,baixa,PMO
+REQ-008,Comissionamento,Preparar plano preliminar,pendente,baixa,Projeto
