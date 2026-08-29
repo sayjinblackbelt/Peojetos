@@ -1,136 +1,247 @@
-# Peojetos — PMO, Documentação e Automação
+# Peojetos
 
-> Case de portfólio que conecta experiência em PMO e apoio documental a projetos técnicos com Python, automação, indicadores, CI/CD e interface web.
+> **PMO · Governança Documental · Python · Automação · Dados · Dashboard · CI/CD**
 
-## Visão geral
+Case técnico de portfólio que transforma um fluxo demonstrativo de documentação e acompanhamento de projetos em uma solução automatizada, reproduzível e publicada na web.
 
-Este repositório demonstra como processos tradicionalmente baseados em documentos podem evoluir para fluxos mais estruturados, rastreáveis e automatizados.
+## 🎯 O que este projeto demonstra
+
+| Área | Demonstração |
+|---|---|
+| PMO | acompanhamento, indicadores e priorização |
+| Documentação | organização, status, revisão e requisitos |
+| Dados | CSV estruturado e validação |
+| Python | geração e análise automatizada |
+| Qualidade | identificação de inconsistências |
+| Risco | score e classificação documental |
+| Tendências | evolução temporal e previsão simples |
+| Web | HTML, CSS e JavaScript |
+| DevOps | GitHub Actions e GitHub Pages |
+
+## 🏗️ Arquitetura
 
 ```text
-Experiência em PMO
-        ↓
-Documentação e requisitos
-        ↓
-Case reconstruído para portfólio
-        ↓
-Dados simulados
-        ↓
-Python e automação
-        ↓
-Dashboard visual
-        ↓
-GitHub Actions
-        ↓
-Interface Web
+┌──────────────────────────────┐
+│ Dados fictícios estruturados │
+│ CSV                          │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ Validação de dados           │
+│ Python                       │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────────┐
+│ Camada de análise                │
+│ • qualidade documental           │
+│ • inconsistências                │
+│ • risco e prioridades            │
+│ • tendências temporais           │
+└──────────────┬───────────────────┘
+               ↓
+┌──────────────────────────────┐
+│ Artefatos JSON e gráficos    │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ Dashboard Web                │
+│ HTML + CSS + JavaScript      │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ GitHub Actions               │
+│ Build + validação + deploy   │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ GitHub Pages                 │
+└──────────────────────────────┘
 ```
 
-## Competências demonstradas
+## 📊 Funcionalidades
 
-- PMO e governança documental;
-- organização e análise de requisitos;
-- estruturação de memoriais e escopos;
-- controle de documentos e revisões;
-- integração entre áreas técnicas e administrativas;
-- Python para automação;
-- CSV e dados estruturados;
-- indicadores e dashboards;
-- GitHub e controle de versões;
-- GitHub Actions e CI/CD;
-- HTML, CSS e JavaScript;
-- aplicação de IA a processos, como evolução futura.
+### Dashboard de PMO
 
-## Estrutura
+- documentos e status;
+- progresso documental;
+- requisitos concluídos;
+- índice geral demonstrativo;
+- gráficos por disciplina e status.
+
+### Análise inteligente documental
+
+A camada atual utiliza regras heurísticas transparentes para:
+
+- verificar campos obrigatórios;
+- identificar inconsistências entre status e progresso;
+- atribuir score de qualidade;
+- registrar alertas estruturados.
+
+### Risco e prioridades
+
+Cada documento pode receber:
+
+- score de risco;
+- nível **Baixo**, **Médio** ou **Alto**;
+- posição na lista de prioridades.
+
+Também é calculado um **índice demonstrativo de risco do projeto**.
+
+### Tendências temporais
+
+O módulo temporal acompanha:
+
+- evolução do progresso;
+- tendência do risco;
+- documentos concluídos;
+- projeção linear simples de conclusão.
+
+> A previsão é demonstrativa e não substitui planejamento profissional.
+
+## 📁 Estrutura do repositório
 
 ```text
 Peojetos/
-├── docs/           # Documentação metodológica
-├── portfolio/      # Case e competências demonstradas
-├── templates/      # Modelos reutilizáveis
-├── engineering/    # Estrutura conceitual de disciplinas
-├── automation/     # Scripts Python e dados simulados
-├── web/            # Interface web do dashboard
-└── .github/        # Workflows de automação
+├── automation/
+│   ├── sample_data/
+│   ├── validate_data.py
+│   ├── generate_visual_dashboard.py
+│   ├── document_analysis.py
+│   ├── project_trend_analysis.py
+│   └── verify_output.py
+├── docs/
+│   ├── análise documental
+│   └── análise temporal
+├── portfolio/
+│   └── competências e contexto do case
+├── web/
+│   ├── index.html
+│   ├── app.js
+│   └── style.css
+└── .github/workflows/
+    └── pages.yml
 ```
 
-## Dashboard demonstrativo
+## 🔄 Pipeline automatizado
 
-Os dados utilizados são fictícios e servem exclusivamente para demonstrar automação e acompanhamento de projetos.
+A publicação segue o fluxo:
 
-O dashboard apresenta:
+```text
+Push no repositório
+        ↓
+Instalação de dependências
+        ↓
+Validação dos dados
+        ↓
+Geração dos indicadores
+        ↓
+Análise documental
+        ↓
+Análise de risco
+        ↓
+Análise temporal
+        ↓
+Verificação dos outputs
+        ↓
+Build do site
+        ↓
+Deploy no GitHub Pages
+```
 
-- total de documentos;
-- documentos por status;
-- progresso médio documental;
-- avanço por disciplina;
-- requisitos por status;
-- percentual de requisitos concluídos;
-- pendências prioritárias;
-- índice demonstrativo geral.
+## 💻 Executar localmente
 
-### Executar localmente
+### Instalar dependências
 
 ```bash
 pip install -r automation/requirements.txt
+```
+
+### Executar análises
+
+```bash
+python automation/validate_data.py
 python automation/generate_visual_dashboard.py
+python automation/analyze_documents.py
+python automation/project_trend_analysis.py
+python automation/verify_output.py
+```
+
+### Visualizar a interface
+
+```bash
 python -m http.server 8000
 ```
 
-Depois, acesse a pasta `web/` pelo navegador.
+## 🧩 Decisões técnicas
 
-## Automação
+### Por que CSV?
 
-O projeto possui workflows para:
+O CSV facilita:
 
-1. gerar o dashboard automaticamente após alterações relevantes;
-2. versionar os artefatos gerados quando necessário;
-3. preparar a publicação da interface com GitHub Pages.
+- leitura humana;
+- versionamento;
+- reprodução do case;
+- integração futura com planilhas ou APIs.
 
-## Sobre minha contribuição
+### Por que regras heurísticas antes de IA?
 
-A experiência profissional que inspirou este case envolveu atuação no contexto de PMO e apoio documental a projetos técnicos.
+Uma base determinística permite:
 
-As atividades incluíram:
+- resultados reproduzíveis;
+- transparência;
+- testes simples;
+- menor dependência de serviços externos.
 
-- avaliação e organização documental;
-- estruturação de informações e requisitos;
-- apoio à elaboração de memoriais e escopos;
-- acompanhamento de fluxos documentais;
-- consolidação de materiais;
-- suporte à preparação de documentos e projetos junto ao profissional técnico responsável;
-- acompanhamento das interfaces necessárias para análise e continuidade dos processos.
+A arquitetura permite evoluir posteriormente para modelos de IA.
 
-A responsabilidade técnica de engenharia, validações, cálculos e aprovações formais pertence aos profissionais legalmente habilitados e às áreas formalmente designadas.
+### Por que GitHub Actions?
 
-## Origem e confidencialidade
+Para demonstrar um fluxo próximo a práticas reais de engenharia:
 
-Os documentos originais da experiência profissional não estão disponíveis neste repositório.
+- automação;
+- validação;
+- build;
+- publicação contínua.
 
-O material atual foi reconstruído posteriormente como um **case autoral e genérico**, utilizando conhecimento profissional, boas práticas e dados fictícios.
+## 🚀 Possíveis evoluções
 
-Não são divulgados:
-
-- organizações ou unidades identificáveis;
-- dados operacionais;
-- contratos ou valores;
-- fornecedores;
-- documentos internos;
-- desenhos proprietários;
-- informações confidenciais.
-
-Leia também: [ORIGEM_E_CONFIDENCIALIDADE.md](ORIGEM_E_CONFIDENCIALIDADE.md).
-
-## Evolução futura
-
-- integração com Google Sheets;
 - banco de dados;
+- API;
+- integração com Google Sheets;
+- histórico persistente;
 - alertas automáticos;
-- dashboard web interativo;
-- análise documental assistida por IA;
-- classificação automática de documentos;
-- identificação de pendências e inconsistências.
+- autenticação;
+- comparação entre revisões;
+- análise de documentos por IA;
+- classificação automática;
+- geração de resumo executivo.
+
+## 👤 Contexto profissional
+
+O case foi inspirado em experiência profissional anterior relacionada a **PMO, avaliação documental e apoio à elaboração de documentos e projetos técnicos**.
+
+As atividades envolveram organização de informações, acompanhamento de fluxos documentais, consolidação de materiais e apoio à preparação de documentos junto a profissionais técnicos responsáveis.
+
+Este repositório não representa documentação original de empresa ou projeto.
+
+## 🔒 Confidencialidade
+
+Todo o conteúdo publicado é:
+
+- genérico;
+- reconstruído para fins de portfólio;
+- baseado em dados fictícios;
+- sem informações operacionais confidenciais;
+- sem documentos internos;
+- sem fornecedores, contratos ou valores;
+- sem projetos proprietários.
+
+Responsabilidades técnicas formais, cálculos, validações e aprovações pertencem aos profissionais legalmente habilitados e às áreas responsáveis.
 
 ---
 
-**Tecnologias:** Python · GitHub · GitHub Actions · HTML · CSS · JavaScript · CSV
+## 🛠️ Tecnologias
 
-**Finalidade:** Portfólio técnico, estudo e demonstração de competências.
+**Python · CSV · HTML · CSS · JavaScript · GitHub · GitHub Actions · GitHub Pages**
+
+**Finalidade:** portfólio técnico e demonstração prática de competências em PMO, automação, dados e desenvolvimento de soluções.
