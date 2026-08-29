@@ -14,6 +14,7 @@ expected = [
     "requisitos_por_status.png",
     "dashboard.html",
     "document_analysis_report.json",
+    "project_trend_report.json",
 ]
 
 missing = [filename for filename in expected if not (OUTPUT / filename).exists()]
