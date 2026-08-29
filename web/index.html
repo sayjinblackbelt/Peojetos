@@ -13,7 +13,7 @@
       <h1>Dashboard de PMO</h1>
       <p class="subtitle">Projeto demonstrativo com dados fictícios, Python e automação.</p>
     </div>
-    <a href="../README.md">Ver documentação</a>
+    <a href="https://github.com/sayjinblackbelt/Peojetos">Ver repositório</a>
   </header>
 
   <main>
@@ -29,15 +29,26 @@
       <p>Este dashboard é gerado a partir de dados simulados e demonstra a integração entre PMO, dados estruturados, Python, visualização e GitHub Actions.</p>
     </section>
 
+    <section class="panel">
+      <h2>Análise inteligente documental</h2>
+      <div class="metrics analysis-metrics">
+        <article class="metric"><span>Documentos analisados</span><strong id="analyzedDocuments">—</strong></article>
+        <article class="metric"><span>Score médio de qualidade</span><strong id="qualityScore">—</strong></article>
+        <article class="metric"><span>Alertas identificados</span><strong id="analysisAlerts">—</strong></article>
+      </div>
+      <div id="analysisStatus" class="analysis-status">Carregando análise...</div>
+      <div id="alertsList" class="alerts-list"></div>
+    </section>
+
     <section class="charts">
-      <article class="panel"><h2>Documentos por status</h2><img src="../automation/output/documentos_por_status.png" alt="Documentos por status"></article>
-      <article class="panel"><h2>Progresso por disciplina</h2><img src="../automation/output/progresso_por_disciplina.png" alt="Progresso por disciplina"></article>
-      <article class="panel"><h2>Requisitos por status</h2><img src="../automation/output/requisitos_por_status.png" alt="Requisitos por status"></article>
+      <article class="panel"><h2>Documentos por status</h2><img src="automation/output/documentos_por_status.png" alt="Documentos por status"></article>
+      <article class="panel"><h2>Progresso por disciplina</h2><img src="automation/output/progresso_por_disciplina.png" alt="Progresso por disciplina"></article>
+      <article class="panel"><h2>Requisitos por status</h2><img src="automation/output/requisitos_por_status.png" alt="Requisitos por status"></article>
     </section>
 
     <section class="panel">
       <h2>Arquitetura demonstrada</h2>
-      <div class="pipeline">CSV → Python → Indicadores → Gráficos → HTML → GitHub Actions</div>
+      <div class="pipeline">CSV → Python → Validação → Análise Inteligente → Indicadores → Gráficos → HTML → GitHub Actions</div>
     </section>
   </main>
 
