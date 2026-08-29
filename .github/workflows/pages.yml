@@ -49,6 +49,9 @@ jobs:
       - name: Run intelligent document analysis
         run: python automation/analyze_documents.py
 
+      - name: Analyze project trends
+        run: python automation/project_trend_analysis.py
+
       - name: Verify generated output
         run: python automation/verify_output.py
 
@@ -59,6 +62,7 @@ jobs:
           mkdir -p _site/automation/output
           cp automation/output/*.png _site/automation/output/
           cp automation/output/document_analysis_report.json _site/automation/output/
+          cp automation/output/project_trend_report.json _site/automation/output/
           mkdir -p _site/automation/sample_data
           cp automation/sample_data/*.csv _site/automation/sample_data/
 
