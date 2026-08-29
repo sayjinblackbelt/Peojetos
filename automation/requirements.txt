@@ -1,0 +1,5 @@
+# Nenhuma dependência externa é necessária para os scripts atuais.
+# Evoluções futuras podem incluir:
+# pandas
+# gspread
+# google-api-python-client
