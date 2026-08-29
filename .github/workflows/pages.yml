@@ -1,4 +1,4 @@
-name: Deploy Dashboard to GitHub Pages
+name: Build and Deploy PMO Dashboard
 
 on:
   push:
@@ -6,8 +6,7 @@ on:
       - main
     paths:
       - "web/**"
-      - "automation/output/**"
-      - "automation/sample_data/**"
+      - "automation/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -21,25 +20,39 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r automation/requirements.txt
+
+      - name: Generate dashboard assets
+        run: python automation/generate_visual_dashboard.py
 
       - name: Build Pages package
         run: |
           mkdir -p _site
-          cp -r web/* _site/
+          cp -r web/. _site/
           mkdir -p _site/automation/output
-          cp automation/output/*.png _site/automation/output/ 2>/dev/null || true
+          cp automation/output/*.png _site/automation/output/
           mkdir -p _site/automation/sample_data
           cp automation/sample_data/*.csv _site/automation/sample_data/
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_site"
