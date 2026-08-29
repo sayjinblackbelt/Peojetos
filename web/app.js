@@ -1,9 +1,10 @@
 async function loadDashboardData() {
   try {
-    const [documentsResponse, requirementsResponse, analysisResponse] = await Promise.all([
+    const [documentsResponse, requirementsResponse, analysisResponse, trendResponse] = await Promise.all([
       fetch("automation/sample_data/project_documents.csv"),
       fetch("automation/sample_data/project_requirements.csv"),
-      fetch("automation/output/document_analysis_report.json")
+      fetch("automation/output/document_analysis_report.json"),
+      fetch("automation/output/project_trend_report.json")
     ]);
 
     const documentsText = await documentsResponse.text();
@@ -12,6 +13,7 @@ async function loadDashboardData() {
     const documents = parseCSV(documentsText);
     const requirements = parseCSV(requirementsText);
     const analysis = await analysisResponse.json();
+    const trends = await trendResponse.json();
 
     const documentProgress = average(documents.map(item => Number(item.progresso)));
     const completed = requirements.filter(item => item.status === "concluido").length;
@@ -24,6 +26,7 @@ async function loadDashboardData() {
     document.getElementById("overall").textContent = overall.toFixed(1) + "%";
 
     renderAnalysis(analysis);\n    renderRisk(analysis);
+    renderTrends(trends);
   } catch (error) {
     console.error("Não foi possível carregar os dados demonstrativos.", error);
     document.getElementById("analysisStatus").textContent =
@@ -59,6 +62,23 @@ function renderAnalysis(analysis) {
       <p>${escapeHTML(alert.mensagem)}</p>
     </article>
   `).join("");
+}
+
+function renderTrends(trends) {
+  document.getElementById("currentProgress").textContent =
+    Number(trends.progresso_atual || 0).toFixed(1) + "%";
+  document.getElementById("currentRisk").textContent =
+    Number(trends.risco_atual || 0).toFixed(1);
+  document.getElementById("completionForecast").textContent =
+    trends.previsao_semana_conclusao
+      ? "Semana " + trends.previsao_semana_conclusao
+      : "Indisponível";
+
+  const riskTrend = Number(trends.tendencia_risco_semana || 0);
+  const riskText = riskTrend < 0 ? "redução" : riskTrend > 0 ? "aumento" : "estabilidade";
+
+  document.getElementById("trendSummary").textContent =
+    `O projeto apresenta evolução média de ${trends.taxa_media_progresso_semana} pontos por semana e tendência de ${riskText} do risco (${riskTrend} ponto(s)/semana).`;
 }
 
 function renderRisk(analysis) {
