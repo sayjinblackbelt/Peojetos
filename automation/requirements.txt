@@ -1,5 +1,1 @@
-# Nenhuma dependência externa é necessária para os scripts atuais.
-# Evoluções futuras podem incluir:
-# pandas
-# gspread
-# google-api-python-client
+matplotlib>=3.8
