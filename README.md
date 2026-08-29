@@ -1,29 +1,136 @@
-# Projeto de Engenharia — Armazenamento e Abastecimento de Combustível
+# Peojetos — PMO, Documentação e Automação
 
-**Status:** Base documental genérica e portfólio técnico  
-**Local:** Informação omitida intencionalmente  
-**Organização:** Informação omitida intencionalmente
+> Case de portfólio que conecta experiência em PMO e apoio documental a projetos técnicos com Python, automação, indicadores, CI/CD e interface web.
 
-## Objetivo
+## Visão geral
 
-Este repositório reúne uma estrutura documental genérica para o desenvolvimento de estudos e projetos de engenharia relacionados ao armazenamento e abastecimento de combustível, incluindo avaliação de áreas classificadas e definição de medidas de segurança.
+Este repositório demonstra como processos tradicionalmente baseados em documentos podem evoluir para fluxos mais estruturados, rastreáveis e automatizados.
 
-## Escopo principal
+```text
+Experiência em PMO
+        ↓
+Documentação e requisitos
+        ↓
+Case reconstruído para portfólio
+        ↓
+Dados simulados
+        ↓
+Python e automação
+        ↓
+Dashboard visual
+        ↓
+GitHub Actions
+        ↓
+Interface Web
+```
 
-- Levantamento de campo e coleta de dados;
-- Projeto de armazenamento de combustível;
-- Projeto da área e sistema de abastecimento;
-- Infraestrutura civil e drenagem;
-- Instalações elétricas;
-- Avaliação e documentação de áreas classificadas;
-- Identificação de medidas e contramedidas de segurança;
-- Sinalização e requisitos operacionais;
-- Documentação técnica para contratação e desenvolvimento do projeto.
+## Competências demonstradas
 
-## Nota de confidencialidade
+- PMO e governança documental;
+- organização e análise de requisitos;
+- estruturação de memoriais e escopos;
+- controle de documentos e revisões;
+- integração entre áreas técnicas e administrativas;
+- Python para automação;
+- CSV e dados estruturados;
+- indicadores e dashboards;
+- GitHub e controle de versões;
+- GitHub Actions e CI/CD;
+- HTML, CSS e JavaScript;
+- aplicação de IA a processos, como evolução futura.
 
-Este repositório foi revisado para fins de portfólio e aprendizado. Informações que possam identificar empresa, unidade, localização, instalações específicas, procedimentos internos ou condições operacionais foram removidas ou generalizadas.
+## Estrutura
 
-## Observação de engenharia
+```text
+Peojetos/
+├── docs/           # Documentação metodológica
+├── portfolio/      # Case e competências demonstradas
+├── templates/      # Modelos reutilizáveis
+├── engineering/    # Estrutura conceitual de disciplinas
+├── automation/     # Scripts Python e dados simulados
+├── web/            # Interface web do dashboard
+└── .github/        # Workflows de automação
+```
 
-Esta documentação representa uma base de organização e desenvolvimento documental. Projetos executivos, dimensionamentos, classificação de áreas, seleção de equipamentos e definição final das medidas de segurança devem ser elaborados e validados por profissionais legalmente habilitados, considerando as normas, legislação e condições reais de cada instalação.
+## Dashboard demonstrativo
+
+Os dados utilizados são fictícios e servem exclusivamente para demonstrar automação e acompanhamento de projetos.
+
+O dashboard apresenta:
+
+- total de documentos;
+- documentos por status;
+- progresso médio documental;
+- avanço por disciplina;
+- requisitos por status;
+- percentual de requisitos concluídos;
+- pendências prioritárias;
+- índice demonstrativo geral.
+
+### Executar localmente
+
+```bash
+pip install -r automation/requirements.txt
+python automation/generate_visual_dashboard.py
+python -m http.server 8000
+```
+
+Depois, acesse a pasta `web/` pelo navegador.
+
+## Automação
+
+O projeto possui workflows para:
+
+1. gerar o dashboard automaticamente após alterações relevantes;
+2. versionar os artefatos gerados quando necessário;
+3. preparar a publicação da interface com GitHub Pages.
+
+## Sobre minha contribuição
+
+A experiência profissional que inspirou este case envolveu atuação no contexto de PMO e apoio documental a projetos técnicos.
+
+As atividades incluíram:
+
+- avaliação e organização documental;
+- estruturação de informações e requisitos;
+- apoio à elaboração de memoriais e escopos;
+- acompanhamento de fluxos documentais;
+- consolidação de materiais;
+- suporte à preparação de documentos e projetos junto ao profissional técnico responsável;
+- acompanhamento das interfaces necessárias para análise e continuidade dos processos.
+
+A responsabilidade técnica de engenharia, validações, cálculos e aprovações formais pertence aos profissionais legalmente habilitados e às áreas formalmente designadas.
+
+## Origem e confidencialidade
+
+Os documentos originais da experiência profissional não estão disponíveis neste repositório.
+
+O material atual foi reconstruído posteriormente como um **case autoral e genérico**, utilizando conhecimento profissional, boas práticas e dados fictícios.
+
+Não são divulgados:
+
+- organizações ou unidades identificáveis;
+- dados operacionais;
+- contratos ou valores;
+- fornecedores;
+- documentos internos;
+- desenhos proprietários;
+- informações confidenciais.
+
+Leia também: [ORIGEM_E_CONFIDENCIALIDADE.md](ORIGEM_E_CONFIDENCIALIDADE.md).
+
+## Evolução futura
+
+- integração com Google Sheets;
+- banco de dados;
+- alertas automáticos;
+- dashboard web interativo;
+- análise documental assistida por IA;
+- classificação automática de documentos;
+- identificação de pendências e inconsistências.
+
+---
+
+**Tecnologias:** Python · GitHub · GitHub Actions · HTML · CSS · JavaScript · CSV
+
+**Finalidade:** Portfólio técnico, estudo e demonstração de competências.
