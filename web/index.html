@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PMO Dashboard | Projeto Demonstrativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">PORTFÓLIO TÉCNICO</p>
+      <h1>Dashboard de PMO</h1>
+      <p class="subtitle">Projeto demonstrativo com dados fictícios, Python e automação.</p>
+    </div>
+    <a href="../README.md">Ver documentação</a>
+  </header>
+
+  <main>
+    <section class="metrics">
+      <article class="metric"><span>Documentos</span><strong id="documents">—</strong></article>
+      <article class="metric"><span>Progresso documental</span><strong id="documentProgress">—</strong></article>
+      <article class="metric"><span>Requisitos concluídos</span><strong id="requirementsCompletion">—</strong></article>
+      <article class="metric"><span>Índice geral</span><strong id="overall">—</strong></article>
+    </section>
+
+    <section class="panel">
+      <h2>Visão geral</h2>
+      <p>Este dashboard é gerado a partir de dados simulados e demonstra a integração entre PMO, dados estruturados, Python, visualização e GitHub Actions.</p>
+    </section>
+
+    <section class="charts">
+      <article class="panel"><h2>Documentos por status</h2><img src="../automation/output/documentos_por_status.png" alt="Documentos por status"></article>
+      <article class="panel"><h2>Progresso por disciplina</h2><img src="../automation/output/progresso_por_disciplina.png" alt="Progresso por disciplina"></article>
+      <article class="panel"><h2>Requisitos por status</h2><img src="../automation/output/requisitos_por_status.png" alt="Requisitos por status"></article>
+    </section>
+
+    <section class="panel">
+      <h2>Arquitetura demonstrada</h2>
+      <div class="pipeline">CSV → Python → Indicadores → Gráficos → HTML → GitHub Actions</div>
+    </section>
+  </main>
+
+  <footer>
+    Dados fictícios e demonstrativos. Nenhuma informação corporativa real é utilizada.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
