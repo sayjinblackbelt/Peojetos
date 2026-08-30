@@ -1,4 +1,4 @@
-# Peojetos
+# Projetos
 
 > **PMO · Governança Documental · Python · Automação · Dados · Dashboard · CI/CD**
 
