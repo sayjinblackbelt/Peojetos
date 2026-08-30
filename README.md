@@ -1,5 +1,7 @@
 # ⚙️ PMO Automation and Dashboard
 
+🇧🇷 Português | [🇺🇸 English](README.en.md) | [🇪🇸 Español](README.es.md)
+
 > **PMO · Governança Documental · Python · Automação · Dados · Dashboard · CI/CD**
 
 ## Sobre o projeto
