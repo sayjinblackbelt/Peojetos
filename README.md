@@ -1,22 +1,52 @@
-# Projetos
+# ⚙️ PMO Automation and Dashboard
 
 > **PMO · Governança Documental · Python · Automação · Dados · Dashboard · CI/CD**
 
-Case técnico de portfólio que transforma um fluxo demonstrativo de documentação e acompanhamento de projetos em uma solução automatizada, reproduzível e publicada na web.
+## Sobre o projeto
+
+Este projeto nasceu em **2024**, a partir de uma **demanda real identificada durante minha atuação em uma equipe de PMO**.
+
+A necessidade inicial estava relacionada à organização de informações, acompanhamento documental e apoio ao controle de atividades e requisitos. Com o tempo, a experiência prática foi transformada em um projeto próprio de estudo, experimentação e desenvolvimento de soluções automatizadas.
+
+Hoje, o repositório funciona como um **case técnico em evolução contínua**, conectando experiência profissional em PMO com desenvolvimento em Python, análise de dados, automação, indicadores e dashboards.
+
+> **Status:** 🟡 Em desenvolvimento contínuo desde 2024.
 
 ## 🎯 O que este projeto demonstra
 
 | Área | Demonstração |
 |---|---|
 | PMO | acompanhamento, indicadores e priorização |
-| Documentação | organização, status, revisão e requisitos |
+| Governança documental | organização, status, revisão e requisitos |
 | Dados | CSV estruturado e validação |
 | Python | geração e análise automatizada |
 | Qualidade | identificação de inconsistências |
 | Risco | score e classificação documental |
-| Tendências | evolução temporal e previsão simples |
+| Tendências | evolução temporal e projeção simples |
 | Web | HTML, CSS e JavaScript |
 | DevOps | GitHub Actions e GitHub Pages |
+
+## 🗓️ Evolução do projeto
+
+```text
+2024
+  ↓
+Demanda real em ambiente de PMO
+  ↓
+Identificação de tarefas repetitivas e necessidades de controle
+  ↓
+Experimentação de automações
+  ↓
+Estruturação de dados e indicadores
+  ↓
+Dashboards e análise documental
+  ↓
+2026
+  ↓
+Case técnico independente em desenvolvimento contínuo
+```
+
+A proposta atual não reproduz o ambiente original. Os dados, exemplos e artefatos publicados foram reconstruídos para demonstração técnica.
 
 ## 🏗️ Arquitetura
 
@@ -68,7 +98,7 @@ Case técnico de portfólio que transforma um fluxo demonstrativo de documentaç
 - índice geral demonstrativo;
 - gráficos por disciplina e status.
 
-### Análise inteligente documental
+### Análise documental
 
 A camada atual utiliza regras heurísticas transparentes para:
 
@@ -101,7 +131,7 @@ O módulo temporal acompanha:
 ## 📁 Estrutura do repositório
 
 ```text
-Peojetos/
+pmo-automation-and-dashboard/
 ├── automation/
 │   ├── sample_data/
 │   ├── validate_data.py
@@ -123,8 +153,6 @@ Peojetos/
 ```
 
 ## 🔄 Pipeline automatizado
-
-A publicação segue o fluxo:
 
 ```text
 Push no repositório
@@ -203,7 +231,7 @@ Para demonstrar um fluxo próximo a práticas reais de engenharia:
 - build;
 - publicação contínua.
 
-## 🚀 Possíveis evoluções
+## 🚀 Próximas evoluções
 
 - banco de dados;
 - API;
@@ -218,11 +246,9 @@ Para demonstrar um fluxo próximo a práticas reais de engenharia:
 
 ## 👤 Contexto profissional
 
-O case foi inspirado em experiência profissional anterior relacionada a **PMO, avaliação documental e apoio à elaboração de documentos e projetos técnicos**.
+O projeto surgiu de uma experiência profissional real em **PMO**, relacionada a organização documental, acompanhamento de fluxos, consolidação de informações e apoio à elaboração e controle de documentos e projetos técnicos.
 
-As atividades envolveram organização de informações, acompanhamento de fluxos documentais, consolidação de materiais e apoio à preparação de documentos junto a profissionais técnicos responsáveis.
-
-Este repositório não representa documentação original de empresa ou projeto.
+A partir dessa experiência, o trabalho evoluiu para um ambiente independente de experimentação e desenvolvimento, permitindo testar abordagens de automação e análise sem expor documentação proprietária.
 
 ## 🔒 Confidencialidade
 
@@ -230,7 +256,7 @@ Todo o conteúdo publicado é:
 
 - genérico;
 - reconstruído para fins de portfólio;
-- baseado em dados fictícios;
+- baseado em dados fictícios ou simulados;
 - sem informações operacionais confidenciais;
 - sem documentos internos;
 - sem fornecedores, contratos ou valores;
@@ -244,4 +270,4 @@ Responsabilidades técnicas formais, cálculos, validações e aprovações pert
 
 **Python · CSV · HTML · CSS · JavaScript · GitHub · GitHub Actions · GitHub Pages**
 
-**Finalidade:** portfólio técnico e demonstração prática de competências em PMO, automação, dados e desenvolvimento de soluções.
+**Finalidade:** case técnico de evolução contínua e demonstração prática de competências em PMO, automação, dados e desenvolvimento de soluções.
