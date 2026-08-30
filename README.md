@@ -273,3 +273,12 @@ Responsabilidades técnicas formais, cálculos, validações e aprovações pert
 **Python · CSV · HTML · CSS · JavaScript · GitHub · GitHub Actions · GitHub Pages**
 
 **Finalidade:** case técnico de evolução contínua e demonstração prática de competências em PMO, automação, dados e desenvolvimento de soluções.
+
+---
+
+## Author
+
+**Filipe G Morais**
+
+GitHub: https://github.com/sayjinblackbelt  
+Repository: https://github.com/sayjinblackbelt/pmo-automation-and-dashboard
